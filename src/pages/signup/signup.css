@@ -1,0 +1,9 @@
+.auth__container {
+  max-width: 40rem;
+  margin: 6rem auto;
+  padding: 4rem;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transform: translateY(-6rem);
+}
