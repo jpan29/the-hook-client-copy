@@ -1,1 +1,3 @@
-/* /index.html 200
+/create /create 200
+/projet id=:id  /projet/:id  301
+
