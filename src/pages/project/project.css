@@ -33,6 +33,7 @@
 .projectSummary__assignedUsers {
   display: flex;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 .projectSummary__assignedUsers div {
   margin-right: 2rem;
