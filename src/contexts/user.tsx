@@ -56,7 +56,6 @@ export const UserProvider = ({ children }: any) => {
       setCurrentUser(user)
     }
   }, [userAuth])
-  console.log(currentUser)
 
   useEffect(() => {
     if (data) {
