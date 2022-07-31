@@ -28,6 +28,8 @@ const Navbar = () => {
   ) => {
     e.preventDefault()
     signOut({ refetchQueries: [{ query: GET_CURRENTUSER }] })
+
+    navigate('/')
     setTimeout(() => {
       value?.setCurrentUser(null)
     }, 2000)

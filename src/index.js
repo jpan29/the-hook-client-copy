@@ -10,8 +10,9 @@ import { UserProvider } from './contexts/user'
 
 
 const httpLink = createHttpLink({
+  //'https://the-hook-apollo-deployment.herokuapp.com/'
 
-  uri: 'https://the-hook-apollo-deployment.herokuapp.com/',
+  uri: 'http://localhost:4000/graphql',
 })
 
 

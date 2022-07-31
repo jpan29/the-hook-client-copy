@@ -19,7 +19,7 @@ function App () {
   const value = useContext(UserContext)
 
   return (
-    <Suspense fallback={Spinner}>
+    <Suspense fallback={<Spinner />}>
       <ProjectProvider>
         <div className='App'>
 
