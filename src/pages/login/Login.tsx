@@ -19,8 +19,8 @@ const SIGN_IN = gql`
   }
 `
 const Login = () => {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [email, setEmail] = useState('littlemy@hook.com')
+  const [password, setPassword] = useState('test123123')
   const [signin, { data, error, loading }] = useMutation(SIGN_IN)
   const [errorMsg, setErrorMsg] = useState('')
 
