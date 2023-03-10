@@ -12,7 +12,7 @@ import { UserProvider } from './contexts/user'
 const httpLink = createHttpLink({
   //
 
-  uri: 'https://the-hook-server.onrender.com/',
+  uri: 'https://the-hook-server.herokuapp.com/',
 })
 
 
